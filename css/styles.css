@@ -1,0 +1,89 @@
+
+/* header */
+h1 {
+	text-align: center;
+}
+.imgCenter {
+	display: block;
+	margin: auto;
+}
+nav {
+	text-align: center;
+}
+.navItem, .active {
+	background-color: lightblue;
+	color: blue;
+	margin: 3px;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+}
+a:hover, a:active {
+	background-color: crimson;
+}
+/* eof header */
+
+/* container */
+
+#container {
+	margin: 40px;
+}
+
+#line {
+	background-color: blue;
+	height: 5px;
+}
+/* blogBox1 */
+#blogBox1 {
+	background-color: lightblue;
+	border-width: 2 px;
+	border-style: solid;
+	border-color: gray;
+}
+h2 {
+	margin: 0px;
+}
+#blogBox1Header {
+	background-color: blue;
+	color: lightblue;
+	padding: 20px;
+}
+.imgRight {
+	float: right;
+}
+.clearfix {
+	/*border: 3px solid blue; */
+	overflow: auto;
+}
+
+/* eof blogBox1 */
+
+#emptyLine {
+	height: 40px;
+}
+
+#blogBox2, #blogBox3, #contactBox {
+	background-color: lightgray;
+	border-width: 2 px;
+	border-style: solid;
+	border-color: gray;
+}
+#blogBox2Header, #blogBox3Header, #contactBoxHeader {
+	background-color: gray;
+	color: white;
+	padding: 20px;
+}
+
+table {
+	width: 80%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
